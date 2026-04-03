@@ -166,20 +166,6 @@ The platform follows a structured workflow:
 
 ---
 
-## 🌐 Deployment (Render)
-
-### Steps:
-
-1. Push project to GitHub
-2. Create Web Service on Render
-3. Add:
-
-   * Build Command: `pip install -r requirements.txt`
-   * Start Command: `gunicorn app:app`
-4. Deploy
-
----
-
 ## ⚠️ Limitations
 
 * ❌ No payment gateway
